@@ -1,0 +1,17 @@
+{
+  "id": "supermarket",
+  "oauth2_uid": {
+    "encrypted_data": "aNVOxsnvCudhvU2rJeb2uPsm9IdsS0Ip9dIuJWTOEtLyCmNU71vCmFX6s0vk\nPEYdjZLfqORtryoLP2H1pVP7XDDXw/xMBcqMzlPEREoBCu2bucQ=\n",
+    "iv": "dE6XNDZV/7YrRxgV\n",
+    "auth_tag": "PdecS0a1x1aXWfYyTZU69g==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "oauth2_secret": {
+    "encrypted_data": "4hukPt8CfaVGEOGYfVe9rAxZAmbX6gVLRSMJecoNCBkFxGRxOz0Ohpo+dcvV\n8q/d8lHsbvb4zq8/XbvJ9R0OAZqIcfFGSxFKrc0HVy5n0ToCz3w=\n",
+    "iv": "vORTouTS//wdtAIR\n",
+    "auth_tag": "1DRYjcEKIAkBURJcadhJ1w==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

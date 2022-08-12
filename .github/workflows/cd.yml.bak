@@ -1,0 +1,29 @@
+---
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  databags-deploy:
+    uses: Stromweld/github-workflows/.github/workflows/chef-data_bags-deploy.yml@main
+    secrets: inherit
+    with:
+      CHEF_USER: "admin"
+      CHEF_SERVER_URL: "https://chef-server.home.com"
+
+  testing-policyfiles-deploy:
+    uses: Stromweld/github-workflows/.github/workflows/chef-policyfiles-deploy.yml@main
+    secrets: inherit
+    with:
+      CHEF_USER: "admin"
+      CHEF_SERVER_URL: "https://chef-server.home.com"
+      POLICY_GROUP: "testing"
+
+  prod-policyfiles-deploy:
+    uses: Stromweld/github-workflows/.github/workflows/chef-policyfiles-deploy.yml@main
+    secrets: inherit
+    with:
+      CHEF_USER: "admin"
+      CHEF_SERVER_URL: "https://chef-server.home.com"
+      POLICY_GROUP: "prod"

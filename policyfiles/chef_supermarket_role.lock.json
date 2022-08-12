@@ -1,0 +1,84 @@
+{
+  "revision_id": "47153645460bfec32846830098fb70dd5480bffcae1afc8d950dc803c02abbbd",
+  "name": "chef_supermarket_role",
+  "run_list": [
+    "recipe[chef_supermarket_role::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "chef-ingredient": {
+      "version": "3.5.0",
+      "identifier": "ad09bdf3fde3c19067f3d0a63b1f555fd1f8471d",
+      "dotted_decimal_identifier": "48705882417914817.40646693521603359.93870032963357",
+      "cache_key": "chef-ingredient-3.5.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-ingredient/versions/3.5.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-ingredient/versions/3.5.0/download",
+        "version": "3.5.0"
+      }
+    },
+    "chef_software": {
+      "version": "2.0.1",
+      "identifier": "4b5e99c5236849252195c8acabf5d88201447473",
+      "dotted_decimal_identifier": "21214637783738441.10451501338897397.238052878611571",
+      "cache_key": "chef_software-2.0.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_software/versions/2.0.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_software/versions/2.0.1/download",
+        "version": "2.0.1"
+      }
+    },
+    "chef_supermarket_role": {
+      "version": "1.0.0",
+      "identifier": "c7ff0450e158b0c85c44d3c9eab6503102053fe9",
+      "dotted_decimal_identifier": "56293914367318192.56396446022888118.88171417518057",
+      "cache_key": "chef_supermarket_role-1.0.0-chef-supermarket.home.com",
+      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_supermarket_role/versions/1.0.0/download",
+      "source_options": {
+        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_supermarket_role/versions/1.0.0/download",
+        "version": "1.0.0"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "chef-ingredient",
+        "= 3.5.0"
+      ],
+      [
+        "chef_software",
+        "= 2.0.1"
+      ],
+      [
+        "chef_supermarket_role",
+        "= 1.0.0"
+      ]
+    ],
+    "dependencies": {
+      "chef-ingredient (3.5.0)": [
+
+      ],
+      "chef_software (2.0.1)": [
+        [
+          "chef-ingredient",
+          ">= 0.0.0"
+        ]
+      ],
+      "chef_supermarket_role (1.0.0)": [
+        [
+          "chef_software",
+          ">= 0.0.0"
+        ]
+      ]
+    }
+  }
+}
