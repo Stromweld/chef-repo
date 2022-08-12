@@ -1,8 +1,8 @@
 {
-  "revision_id": "f72e81f602f239e75f7d7326d5a447975e2f52e2928eba4f146734a92e7e4842",
-  "name": "chef_automate_role",
+  "revision_id": "f64d5d15c3a42764a77e25e699eeab10b67c4d1af68da100d89259d23d8edc10",
+  "name": "base_role",
   "run_list": [
-    "recipe[chef_automate_role::default]"
+    "recipe[base_role::default]"
   ],
   "included_policy_locks": [
 
@@ -30,6 +30,17 @@
         "version": "1.0.0"
       }
     },
+    "base_role": {
+      "version": "1.0.0",
+      "identifier": "648485da680f6c13afcdbfafbab2b4c3655943dc",
+      "dotted_decimal_identifier": "28293208100835180.5541322776623794.198751311971292",
+      "cache_key": "base_role-1.0.0-chef-supermarket.home.com",
+      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/base_role/versions/1.0.0/download",
+      "source_options": {
+        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/base_role/versions/1.0.0/download",
+        "version": "1.0.0"
+      }
+    },
     "bash-completion": {
       "version": "0.1.0",
       "identifier": "4e5543bc57ac947c0b8604a4df31e2c92f570f62",
@@ -41,28 +52,6 @@
         "version": "0.1.0"
       }
     },
-    "chef-ingredient": {
-      "version": "3.5.0",
-      "identifier": "ad09bdf3fde3c19067f3d0a63b1f555fd1f8471d",
-      "dotted_decimal_identifier": "48705882417914817.40646693521603359.93870032963357",
-      "cache_key": "chef-ingredient-3.5.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-ingredient/versions/3.5.0/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-ingredient/versions/3.5.0/download",
-        "version": "3.5.0"
-      }
-    },
-    "chef_automate_role": {
-      "version": "1.1.0",
-      "identifier": "dbadd360bb0b355cfe01f0caa750fa0947e8b76f",
-      "dotted_decimal_identifier": "61834143272209205.26174982145615696.274917768083311",
-      "cache_key": "chef_automate_role-1.1.0-chef-supermarket.home.com",
-      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_automate_role/versions/1.1.0/download",
-      "source_options": {
-        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_automate_role/versions/1.1.0/download",
-        "version": "1.1.0"
-      }
-    },
     "chef_client_updater": {
       "version": "3.12.3",
       "identifier": "4a3c5a1d4bbfca5306005f9475534c39c886c35d",
@@ -72,17 +61,6 @@
       "source_options": {
         "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_client_updater/versions/3.12.3/download",
         "version": "3.12.3"
-      }
-    },
-    "chef_software": {
-      "version": "2.0.1",
-      "identifier": "4b5e99c5236849252195c8acabf5d88201447473",
-      "dotted_decimal_identifier": "21214637783738441.10451501338897397.238052878611571",
-      "cache_key": "chef_software-2.0.1-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_software/versions/2.0.1/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_software/versions/2.0.1/download",
-        "version": "2.0.1"
       }
     },
     "chocolatey": {
@@ -191,24 +169,16 @@
         "= 1.0.0"
       ],
       [
+        "base_role",
+        "= 1.0.0"
+      ],
+      [
         "bash-completion",
         "= 0.1.0"
       ],
       [
-        "chef-ingredient",
-        "= 3.5.0"
-      ],
-      [
-        "chef_automate_role",
-        "= 1.1.0"
-      ],
-      [
         "chef_client_updater",
         "= 3.12.3"
-      ],
-      [
-        "chef_software",
-        "= 2.0.1"
       ],
       [
         "chocolatey",
@@ -296,30 +266,17 @@
           ">= 0.0.0"
         ]
       ],
-      "bash-completion (0.1.0)": [
-
-      ],
-      "chef-ingredient (3.5.0)": [
-
-      ],
-      "chef_automate_role (1.1.0)": [
+      "base_role (1.0.0)": [
         [
           "base_config",
           ">= 0.0.0"
-        ],
-        [
-          "chef_software",
-          ">= 0.0.0"
         ]
+      ],
+      "bash-completion (0.1.0)": [
+
       ],
       "chef_client_updater (3.12.3)": [
 
-      ],
-      "chef_software (2.0.1)": [
-        [
-          "chef-ingredient",
-          ">= 0.0.0"
-        ]
       ],
       "chocolatey (3.0.0)": [
 

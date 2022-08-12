@@ -1,5 +1,5 @@
 {
-  "revision_id": "a5e37c2ab9a3ec7ede9e4b98bb456272a3c05f1c7610a602ce4a1a4c8a4c23c5",
+  "revision_id": "818dd5ebb87aa25799e1c4f68094b0f9b36ec6d790dd196538fa0c6c65b30831",
   "name": "chef_server_role",
   "run_list": [
     "recipe[chef_server_role::default]"
@@ -8,6 +8,39 @@
 
   ],
   "cookbook_locks": {
+    "autopatch_ii": {
+      "version": "1.4.3",
+      "identifier": "5683a8f3b0ac0c19064a29f2dcbc95c839c67ac4",
+      "dotted_decimal_identifier": "24351609663302668.7043790018895036.164687195306692",
+      "cache_key": "autopatch_ii-1.4.3-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/autopatch_ii/versions/1.4.3/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/autopatch_ii/versions/1.4.3/download",
+        "version": "1.4.3"
+      }
+    },
+    "base_config": {
+      "version": "1.0.0",
+      "identifier": "ace40d66469296bfd6ab1a9e96221ccfc2e3ad3f",
+      "dotted_decimal_identifier": "48664442195841686.53997750926087714.31678653508927",
+      "cache_key": "base_config-1.0.0-chef-supermarket.home.com",
+      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/base_config/versions/1.0.0/download",
+      "source_options": {
+        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/base_config/versions/1.0.0/download",
+        "version": "1.0.0"
+      }
+    },
+    "bash-completion": {
+      "version": "0.1.0",
+      "identifier": "4e5543bc57ac947c0b8604a4df31e2c92f570f62",
+      "dotted_decimal_identifier": "22048797594463380.34915567343558449.249353710538594",
+      "cache_key": "bash-completion-0.1.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/bash-completion/versions/0.1.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/bash-completion/versions/0.1.0/download",
+        "version": "0.1.0"
+      }
+    },
     "chef-ingredient": {
       "version": "3.5.0",
       "identifier": "ad09bdf3fde3c19067f3d0a63b1f555fd1f8471d",
@@ -19,15 +52,26 @@
         "version": "3.5.0"
       }
     },
-    "chef_server_role": {
-      "version": "1.0.0",
-      "identifier": "2e495e99d7674665b1d9daafb7d156e39d74920b",
-      "dotted_decimal_identifier": "13028519585474374.28624521882744785.95535599227403",
-      "cache_key": "chef_server_role-1.0.0-chef-supermarket.home.com",
-      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_server_role/versions/1.0.0/download",
+    "chef_client_updater": {
+      "version": "3.12.3",
+      "identifier": "4a3c5a1d4bbfca5306005f9475534c39c886c35d",
+      "dotted_decimal_identifier": "20895506012815306.23369021740315987.83811061121885",
+      "cache_key": "chef_client_updater-3.12.3-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_client_updater/versions/3.12.3/download",
       "source_options": {
-        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_server_role/versions/1.0.0/download",
-        "version": "1.0.0"
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_client_updater/versions/3.12.3/download",
+        "version": "3.12.3"
+      }
+    },
+    "chef_server_role": {
+      "version": "1.1.0",
+      "identifier": "6dbc9e3d289bed0c3a7718031c2fd422d6bafe82",
+      "dotted_decimal_identifier": "30888160278387693.3441982898904111.233246096555650",
+      "cache_key": "chef_server_role-1.1.0-chef-supermarket.home.com",
+      "origin": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_server_role/versions/1.1.0/download",
+      "source_options": {
+        "artifactserver": "https://chef-supermarket.home.com:443/api/v1/cookbooks/chef_server_role/versions/1.1.0/download",
+        "version": "1.1.0"
       }
     },
     "chef_software": {
@@ -40,6 +84,94 @@
         "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef_software/versions/2.0.1/download",
         "version": "2.0.1"
       }
+    },
+    "chocolatey": {
+      "version": "3.0.0",
+      "identifier": "fa3d995554cb8665aa4354799f65bef0b23e4042",
+      "dotted_decimal_identifier": "70436472948575110.28616178804563813.209940991852610",
+      "cache_key": "chocolatey-3.0.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/chocolatey/versions/3.0.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chocolatey/versions/3.0.0/download",
+        "version": "3.0.0"
+      }
+    },
+    "dstat": {
+      "version": "0.1.1",
+      "identifier": "f3a373dcfd0dcb1e0ac55aa7316eb0b94d3918fb",
+      "dotted_decimal_identifier": "68578137364827595.8456092047061358.194309911025915",
+      "cache_key": "dstat-0.1.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/dstat/versions/0.1.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/dstat/versions/0.1.1/download",
+        "version": "0.1.1"
+      }
+    },
+    "logrotate": {
+      "version": "3.0.9",
+      "identifier": "c9fde2dbe9dfa3d0218d4b2031ed77bc9158a175",
+      "dotted_decimal_identifier": "56855621112815523.58583685890322925.131651776061813",
+      "cache_key": "logrotate-3.0.9-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/logrotate/versions/3.0.9/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/logrotate/versions/3.0.9/download",
+        "version": "3.0.9"
+      }
+    },
+    "nano": {
+      "version": "3.0.1",
+      "identifier": "984d4fae43664e0a426b8a36fa91b4b325be6134",
+      "dotted_decimal_identifier": "42869201081427534.2887779414899345.198681525379380",
+      "cache_key": "nano-3.0.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/nano/versions/3.0.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/nano/versions/3.0.1/download",
+        "version": "3.0.1"
+      }
+    },
+    "postfix": {
+      "version": "6.0.7",
+      "identifier": "7ef77919bb3566245a3b6379c5093b48828766e2",
+      "dotted_decimal_identifier": "35737946560345446.10232310280078601.65182613595874",
+      "cache_key": "postfix-6.0.7-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/postfix/versions/6.0.7/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/postfix/versions/6.0.7/download",
+        "version": "6.0.7"
+      }
+    },
+    "sshd": {
+      "version": "3.1.1",
+      "identifier": "4453df2db56a7942406baf26a487265f7bf57005",
+      "dotted_decimal_identifier": "19232516426001017.18648179707126919.42191543431173",
+      "cache_key": "sshd-3.1.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/sshd/versions/3.1.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/sshd/versions/3.1.1/download",
+        "version": "3.1.1"
+      }
+    },
+    "vim": {
+      "version": "2.1.4",
+      "identifier": "53c48e9f3d736d570bc9699d5ba530377690c4f3",
+      "dotted_decimal_identifier": "23578539902989165.24501282662079397.53014770533619",
+      "cache_key": "vim-2.1.4-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/vim/versions/2.1.4/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/vim/versions/2.1.4/download",
+        "version": "2.1.4"
+      }
+    },
+    "yum-epel": {
+      "version": "4.5.0",
+      "identifier": "dad6a6c002700a1ae06443e61afaf9abf5b6e2ab",
+      "dotted_decimal_identifier": "61597556597223434.7565070634982138.274516957127339",
+      "cache_key": "yum-epel-4.5.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/yum-epel/versions/4.5.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/yum-epel/versions/4.5.0/download",
+        "version": "4.5.0"
+      }
     }
   },
   "default_attributes": {
@@ -51,23 +183,133 @@
   "solution_dependencies": {
     "Policyfile": [
       [
+        "autopatch_ii",
+        "= 1.4.3"
+      ],
+      [
+        "base_config",
+        "= 1.0.0"
+      ],
+      [
+        "bash-completion",
+        "= 0.1.0"
+      ],
+      [
         "chef-ingredient",
         "= 3.5.0"
       ],
       [
+        "chef_client_updater",
+        "= 3.12.3"
+      ],
+      [
         "chef_server_role",
-        "= 1.0.0"
+        "= 1.1.0"
       ],
       [
         "chef_software",
         "= 2.0.1"
+      ],
+      [
+        "chocolatey",
+        "= 3.0.0"
+      ],
+      [
+        "dstat",
+        "= 0.1.1"
+      ],
+      [
+        "logrotate",
+        "= 3.0.9"
+      ],
+      [
+        "nano",
+        "= 3.0.1"
+      ],
+      [
+        "postfix",
+        "= 6.0.7"
+      ],
+      [
+        "sshd",
+        "= 3.1.1"
+      ],
+      [
+        "vim",
+        "= 2.1.4"
+      ],
+      [
+        "yum-epel",
+        "= 4.5.0"
       ]
     ],
     "dependencies": {
+      "autopatch_ii (1.4.3)": [
+        [
+          "logrotate",
+          ">= 0.0.0"
+        ]
+      ],
+      "base_config (1.0.0)": [
+        [
+          "autopatch_ii",
+          ">= 0.0.0"
+        ],
+        [
+          "bash-completion",
+          ">= 0.0.0"
+        ],
+        [
+          "chef_client_updater",
+          ">= 0.0.0"
+        ],
+        [
+          "chocolatey",
+          ">= 0.0.0"
+        ],
+        [
+          "dstat",
+          ">= 0.0.0"
+        ],
+        [
+          "logrotate",
+          ">= 0.0.0"
+        ],
+        [
+          "nano",
+          ">= 0.0.0"
+        ],
+        [
+          "postfix",
+          ">= 0.0.0"
+        ],
+        [
+          "sshd",
+          ">= 0.0.0"
+        ],
+        [
+          "vim",
+          ">= 0.0.0"
+        ],
+        [
+          "yum-epel",
+          ">= 0.0.0"
+        ]
+      ],
+      "bash-completion (0.1.0)": [
+
+      ],
       "chef-ingredient (3.5.0)": [
 
       ],
-      "chef_server_role (1.0.0)": [
+      "chef_client_updater (3.12.3)": [
+
+      ],
+      "chef_server_role (1.1.0)": [
+        [
+          "base_config",
+          ">= 0.0.0"
+        ],
         [
           "chef_software",
           ">= 0.0.0"
@@ -78,6 +320,30 @@
           "chef-ingredient",
           ">= 0.0.0"
         ]
+      ],
+      "chocolatey (3.0.0)": [
+
+      ],
+      "dstat (0.1.1)": [
+
+      ],
+      "logrotate (3.0.9)": [
+
+      ],
+      "nano (3.0.1)": [
+
+      ],
+      "postfix (6.0.7)": [
+
+      ],
+      "sshd (3.1.1)": [
+
+      ],
+      "vim (2.1.4)": [
+
+      ],
+      "yum-epel (4.5.0)": [
+
       ]
     }
   }
