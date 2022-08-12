@@ -1,0 +1,17 @@
+{
+  "id": "automate",
+  "admin_token": {
+    "encrypted_data": "ZiQv4nX7YJkWSA3J6C7ZXyMmfFE+Tgxf6tQ/Ucn8mHlD0a05IldiCJFjavFL\nhq4=\n",
+    "iv": "ZVi/AwJcwn5mm7RH\n",
+    "auth_tag": "xdxTVf3clEpTmUN4HYBcIQ==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "license": {
+    "encrypted_data": "q2g8ntba+TezKIbTFoxRonofrk4W818Oy8zl0KOIcKbOa906IuSpOO5j5Um+\nNT5hw8Mte0IGpqSQypw7rzFTzYaRKwJQZ36WUD6mbl9Y3rUu+49hT01mz7RO\nrdvD9fNHMmK2ob6clzOtzpDvNzplrAGIKquLGZzz7r0BCMuwGz6cc5lx1vGl\njmKYYm9twXFySch/IfO7zVqbOcYAsUI7HtVJuKZTdzPQvrzU4Aa6zQPPMYgV\nHb80zM4GeY+5KDaCxep24OfR8Jjv3JitT2KFlQzTevEfAAlpPNKt9VVY1//G\nD2sPMmi3vwRyi5Em3Gtei442RwyB8fEWaArFFLoZzqJ6/OBNBfwXlMuwst+k\nwnYR7ld4lRC9HJOoOMXJohOGMERLOxMpzjV1imiFD90NtdBJLsRhI4t+QyMZ\n23ln9fPglQhUCcr7A1uk4/mCOc1Kmgnuq+ZKkgpgRf/WTs66J8YCWvgW4NWL\nLfaIlTkaVoM42AtplFBAJ1MZygRfDzJLs7lyFp9Dxbm03gcHXdYcgF5001jP\nkgOR2cAcCBBczuRk2q/03DrUmqvw3nDF+g+yhwfZSEuZRwj3N1tF1Rz7eA48\nxrPebvX6sfULcEXLc/XGav/0J/vbfwIrvyVr01Vf/x6GBU6EcM9JsYPBnDxT\nhFw+Rf4MQoTBuEV+OGVzGSmneEDrPFYbJrl3XmYdD44AADEbvCXlxQEW6lPL\n+rE4cC/LPlWJYO5pcLbmqin4XdmVccJJWzLTFfxWVjsXYeG/G4wLpc9zTef+\nt+Gishld0eMSthstDs6n/lGhw4wwOy4Qz7tVJZvtjUdOF7ovbMMN/cz53HNI\nJ5F68qXLZHxqwW/NJeZfoqYxEADBPQ/+Mva3r/1A/enOR8w7TXBeFwNvCb+o\n4EyQjVKxd1yVUv7wxTQQlijjZsIUAa7iTpSXl5ya7tBwE0DZBnXA0CozlbPt\n49NCzjLCseDKwV7KdwLAjuVGB/PZjEt8+Gaxs0OlBf4s56crIXScgdTwD/Hh\n06zxHrsIGWkHFcU4wTkJ80jfENN3UV/oxZcYJKIdLOYym/5KUlJo4uogLpT5\nwyPDTmfpVVHrQHmm186IvwNoTtvam5xZI6ByFiuj5+zKaiND9Qk5ytu1jgBV\nSAASgaGsUG71DwgNfc6/rLunCuhTRQ==\n",
+    "iv": "/5HjTcAhrDkicY+8\n",
+    "auth_tag": "QHhgVltkNtYaU8nBT1vfig==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "infra-server",
+  "admin-password": {
+    "encrypted_data": "5q+BVfbHigikLhxZMeWVE6LlAL/YdeugcV3dFQ==\n",
+    "iv": "nDLRzf6Tt7dDFI74\n",
+    "auth_tag": "ETO7E7fYkUW8eSxa8Rp38A==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "chef-supermarket-password": {
+    "encrypted_data": "D8+CRaYHxF0L+Jg9Ewi539y+Dkrzc8OhBWW2lw==\n",
+    "iv": "FM7IyLs+UzUe3ymR\n",
+    "auth_tag": "iM8mIkTEpC+6S6VkNyGf4Q==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}
